@@ -1,0 +1,15 @@
+h2, p, body, div, table, tr, th, td {
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+table, th, tr, td {
+    margin: 0 auto;
+    width: 30%;
+    height: 10%;
+    border: 1px solid white;
+}
