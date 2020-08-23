@@ -5,8 +5,9 @@ const port = process.env.PORT || 3000;
 
 
 app.use('/', routes);
-app.listen(port, () => {
-    console.log(`Server is listening on port: ${port}`);
-});
+app.listen(port, () => console.log('server started on port', port))
+
 
 module.exports = app;
+
+app.listen(port, () => console.log('server started on port', port))
