@@ -11,7 +11,7 @@ router.get('/', cors(), (req, res) => {
 /* 
     Returns a list of N-most frequent <word,frequency> pairs in file 
 */
-router.get('/most-frequent-words', cors(), async (req, res) => {
+router.get('most-frequent-words', cors(), async (req, res) => {
     try {
         const N = req.query.N;
         const file = await getFile();
